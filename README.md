@@ -1,9 +1,11 @@
-Invoke
+Invoke Demo
 ======
 
-LISA Invoke PostMan Project
+Purpose - Demos some Simple Use Cases of the LISA Invoke REST API.
 
-This project requires the following Pre-Requisites
+LISA Invoke Demonstration PostMan (Rest Client for Chrome) Project to get PostMan https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en
+
+This project requires the following Pre-Requisites:
 
 Services Must be started before running:
 Registry
@@ -14,6 +16,14 @@ Web Console
 
 Mar Files:
 
+LISA Bank ATM GUI Example - Used to validate Virtual Service post Deploy
+Kiosk V6 Mar file
+All Test Suite from Examples Project Mar'd
+Demo Server should be running
+
+The Demonstration Script is as follows:
+
+Swagger URL http://localhost:1505/api/swagger/
 
 
-The Demonstration Script Contains the following:
+http://localhost:1505/api/swagger/
