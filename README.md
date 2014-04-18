@@ -15,6 +15,12 @@ Simulator
 Web Console
 
 Mar Files:
+All Tests Suite https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar
+Kiosk V6 https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar
+SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip
+
+PostMan Collection:
+https://github.com/ianakelly/Invoke/blob/master/Invoke%20Collection.json
 
 LISA Bank ATM GUI Example - Used to validate Virtual Service post Deploy
 Kiosk V6 Mar file
