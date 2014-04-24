@@ -1,1 +1,169 @@
-{"id":"480497bd-fdb1-615f-84bb-4301cf631c31","name":"LISA Invoke Demo","description":"","order":["7f6408c0-b445-7395-50b8-bdf22d337a49","aaffac7f-c4cc-5564-4dc3-a3b27a2053c4","0a7b4483-4d8f-1f49-2f49-32625251b5bd","a143d17b-a991-b159-1100-a2737750929b","3b51080c-7116-f594-389b-b434c37ca83a","3e62e7a7-28ab-1662-b479-f716eba7e02b","5e90f73c-6c19-2968-a68c-fa9702a650c5"],"folders":[],"timestamp":1390920177538,"synced":false,"requests":[{"collectionId":"480497bd-fdb1-615f-84bb-4301cf631c31","id":"0a7b4483-4d8f-1f49-2f49-32625251b5bd","name":"http://localhost:1505/api/Dcm/CoordinatorServers/","description":"","url":"http://localhost:1505/api/Dcm/CoordinatorServers/","method":"GET","headers":"","data":[{"key":"file","value":"file:/Users/dlatil/tmp/forever.mar","type":"file"}],"dataMode":"params","responses":[],"version":2},{"collectionId":"480497bd-fdb1-615f-84bb-4301cf631c31","id":"3b51080c-7116-f594-389b-b434c37ca83a","name":"http://localhost:1505/api/Dcm/Labs","description":"","url":"http://localhost:1505/api/Dcm/Labs","method":"GET","headers":"","data":[],"dataMode":"params","responses":[],"version":2},{"collectionId":"480497bd-fdb1-615f-84bb-4301cf631c31","id":"3e62e7a7-28ab-1662-b479-f716eba7e02b","name":"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/","description":"","url":"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/","method":"PUT","headers":"Content-Type: application/vnd.ca.lisaInvoke.virtualService+xml\n","data":"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<VirtualService\n    xmlns=\"http://www.ca.com/lisa/invoke/v2.0\" name=\"kioskV6\" type=\"application/vnd.ca.lisaInvoke.virtualService+xml\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6\" xsi:schemaLocation=\"http://www.ca.com/lisa/invoke/v2.0 VirtualService.xsd\"\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <ModelName>kioskV6</ModelName>\n    <EndTime>1969 12 31 18:00:00</EndTime>\n    <Capacity>1</Capacity>\n    <UpTime>0:02:31</UpTime>\n    <TransactionsPerSecond>0</TransactionsPerSecond>\n    <TransactionCount>0</TransactionCount>\n    <PeakTransactionsPerSecond>0</PeakTransactionsPerSecond>\n    <ThinkScale>100</ThinkScale>\n    <ErrorCount>0</ErrorCount>\n    <AutoRestartEnabled>true</AutoRestartEnabled>\n    <Status>2</Status>\n    <StartTime>2014 01 28 09:31:25</StartTime>\n    <ExecutionMode>Transaction Tracking</ExecutionMode>\n    <ConfigurationName>Configs/project.config</ConfigurationName>\n    <ResourceName>8001 : http :  : /itkoExamples</ResourceName>\n    <Link rel=\"down\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions\"/>\n    <Link rel=\"start\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/start\"/>\n    <Link rel=\"stop\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/stop\"/>\n    <Link rel=\"resetCounts\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/resetCounts\"/>\n</VirtualService>","dataMode":"raw","responses":[],"version":2},{"collectionId":"480497bd-fdb1-615f-84bb-4301cf631c31","id":"5e90f73c-6c19-2968-a68c-fa9702a650c5","name":"json put","description":"","url":"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/","method":"PUT","headers":"Accept: application/vnd.ca.lisaInvoke.virtualService+json\nContent-Type: application/vnd.ca.lisaInvoke.virtualService+json\n","data":"{\"modelName\":\"kioskV6\",\"endTime\":\"1969 12 31 18:00:00\",\"capacity\":1,\"upTime\":\"0:11:25\",\"transactionsPerSecond\":0,\"transactionCount\":0,\"peakTransactionsPerSecond\":0,\"thinkScale\":100,\"errorCount\":0,\"autoRestartEnabled\":true,\"status\":\"2\",\"lastStartTime\":\"2014 01 31 14:21:07\",\"executionMode\":\"Transaction Tracking\",\"configName\":\"Configs/project.config\",\"name\":\"kioskV6\",\"resourceName\":\"8001 : http :  : /itkoExamples\",\"links\":[{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions\",\"rel\":\"down\"},{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/start\",\"rel\":\"start\"},{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/stop\",\"rel\":\"stop\"},{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/resetCounts\",\"rel\":\"resetCounts\"}]}","dataMode":"raw","responses":[],"version":2},{"collectionId":"480497bd-fdb1-615f-84bb-4301cf631c31","id":"7f6408c0-b445-7395-50b8-bdf22d337a49","name":"http://localhost:1505/api/Dcm/VSEs/VSE/actions/deployMar","description":"","url":"http://localhost:1505/api/Dcm/VSEs/VSE/actions/deployMar","method":"POST","headers":"","data":[{"key":"file","value":"file:/Users/dlatil/tmp/webservices-vs.mar","type":"file"}],"dataMode":"params","responses":[],"version":2},{"collectionId":"480497bd-fdb1-615f-84bb-4301cf631c31","id":"a143d17b-a991-b159-1100-a2737750929b","name":"http://localhost:1505/api/Dcm/VSEs/","description":"","url":"http://localhost:1505/api/Dcm/VSEs/","method":"GET","headers":"","data":[{"key":"file","value":"file:/Users/dlatil/tmp/forever.mar","type":"file"}],"dataMode":"params","responses":[],"version":2},{"collectionId":"480497bd-fdb1-615f-84bb-4301cf631c31","id":"aaffac7f-c4cc-5564-4dc3-a3b27a2053c4","name":"http://localhost:1505/api/Dcm/CoordinatorServers/Coordinator/actions/deployMar","description":"","url":"http://localhost:1505/api/Dcm/CoordinatorServers/Coordinator/actions/deployMar","method":"POST","headers":"","data":[{"key":"file","value":"file:/Users/dlatil/tmp/forever.mar","type":"file"}],"dataMode":"params","responses":[],"version":2}]}
+{
+	"id": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+	"name": "demo",
+	"description": "",
+	"order": [
+		"26784062-bd41-3cbd-149f-1ddf0c8e4fd4",
+		"43e4d87a-f9a2-06ea-94bc-b9cb86422e60",
+		"9476f5ec-0bd0-4ab2-3936-3f628fa30fbe",
+		"297e93b5-03b4-58b5-ba7a-16f6a44c81fc",
+		"709c9c3b-c3b2-0807-b54e-8f6d285726e5",
+		"ce94c1f4-144e-5a45-407e-17399bbfacb6",
+		"c79ed2fb-1dca-908c-5d11-1e7476adbb0d"
+	],
+	"folders": [],
+	"timestamp": 1390920177538,
+	"synced": false,
+	"requests": [
+		{
+			"id": "26784062-bd41-3cbd-149f-1ddf0c8e4fd4",
+			"headers": "",
+			"url": "http://localhost:1505/api/Dcm/VSEs/VSE/actions/deployMar",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "file:/Users/dlatil/tmp/webservices-vs.mar",
+					"type": "file"
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:1505/api/Dcm/VSEs/VSE/actions/deployMar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1390920339680,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+			"synced": false
+		},
+		{
+			"id": "297e93b5-03b4-58b5-ba7a-16f6a44c81fc",
+			"headers": "",
+			"url": "http://localhost:1505/api/Dcm/VSEs/",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "file",
+					"value": "file:/Users/dlatil/tmp/forever.mar",
+					"type": "file"
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:1505/api/Dcm/VSEs/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1390920477918,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+			"synced": false
+		},
+		{
+			"id": "43e4d87a-f9a2-06ea-94bc-b9cb86422e60",
+			"headers": "",
+			"url": "http://localhost:1505/api/Dcm/CoordinatorServers/Coordinator/actions/deployMar",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "file:/Users/dlatil/tmp/forever.mar",
+					"type": "file"
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:1505/api/Dcm/CoordinatorServers/Coordinator/actions/deployMar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1390920302746,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+			"synced": false
+		},
+		{
+			"id": "709c9c3b-c3b2-0807-b54e-8f6d285726e5",
+			"headers": "",
+			"url": "http://localhost:1505/api/Dcm/Labs",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "http://localhost:1505/api/Dcm/Labs",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1390922364958,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+			"synced": false
+		},
+		{
+			"id": "9476f5ec-0bd0-4ab2-3936-3f628fa30fbe",
+			"headers": "",
+			"url": "http://localhost:1505/api/Dcm/CoordinatorServers/",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "file",
+					"value": "file:/Users/dlatil/tmp/forever.mar",
+					"type": "file"
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:1505/api/Dcm/CoordinatorServers/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1390920379205,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+			"synced": false
+		},
+		{
+			"id": "c79ed2fb-1dca-908c-5d11-1e7476adbb0d",
+			"headers": "Accept: application/vnd.ca.lisaInvoke.virtualService+json\nContent-Type: application/vnd.ca.lisaInvoke.virtualService+json\n",
+			"url": "http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": "{\"modelName\":\"kioskV6\",\"endTime\":\"1969 12 31 18:00:00\",\"capacity\":1,\"upTime\":\"0:11:25\",\"transactionsPerSecond\":0,\"transactionCount\":0,\"peakTransactionsPerSecond\":0,\"thinkScale\":100,\"errorCount\":0,\"autoRestartEnabled\":true,\"status\":\"2\",\"lastStartTime\":\"2014 01 31 14:21:07\",\"executionMode\":\"Transaction Tracking\",\"configName\":\"Configs/project.config\",\"name\":\"kioskV6\",\"resourceName\":\"8001 : http :  : /itkoExamples\",\"links\":[{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions\",\"rel\":\"down\"},{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/start\",\"rel\":\"start\"},{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/stop\",\"rel\":\"stop\"},{\"href\":\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/resetCounts\",\"rel\":\"resetCounts\"}]}",
+			"dataMode": "raw",
+			"name": "json put",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1391200705244,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+			"synced": false
+		},
+		{
+			"id": "ce94c1f4-144e-5a45-407e-17399bbfacb6",
+			"headers": "Content-Type: application/vnd.ca.lisaInvoke.virtualService+xml\n",
+			"url": "http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<VirtualService\n    xmlns=\"http://www.ca.com/lisa/invoke/v2.0\" name=\"kioskV6\" type=\"application/vnd.ca.lisaInvoke.virtualService+xml\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6\" xsi:schemaLocation=\"http://www.ca.com/lisa/invoke/v2.0 VirtualService.xsd\"\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n    <ModelName>kioskV6</ModelName>\n    <EndTime>1969 12 31 18:00:00</EndTime>\n    <Capacity>1</Capacity>\n    <UpTime>0:02:31</UpTime>\n    <TransactionsPerSecond>0</TransactionsPerSecond>\n    <TransactionCount>0</TransactionCount>\n    <PeakTransactionsPerSecond>0</PeakTransactionsPerSecond>\n    <ThinkScale>100</ThinkScale>\n    <ErrorCount>0</ErrorCount>\n    <AutoRestartEnabled>true</AutoRestartEnabled>\n    <Status>2</Status>\n    <StartTime>2014 01 28 09:31:25</StartTime>\n    <ExecutionMode>Transaction Tracking</ExecutionMode>\n    <ConfigurationName>Configs/project.config</ConfigurationName>\n    <ResourceName>8001 : http :  : /itkoExamples</ResourceName>\n    <Link rel=\"down\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions\"/>\n    <Link rel=\"start\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/start\"/>\n    <Link rel=\"stop\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/stop\"/>\n    <Link rel=\"resetCounts\" href=\"http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/actions/resetCounts\"/>\n</VirtualService>",
+			"dataMode": "raw",
+			"name": "http://localhost:1505/api/Dcm/VSEs/VSE/kioskV6/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1390925673058,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "57c0e2ee-32f5-27e2-b529-dc3771e6ef8d",
+			"synced": false
+		}
+	]
+}
