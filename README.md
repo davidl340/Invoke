@@ -32,5 +32,4 @@ Demo Server should be running
 
 Swagger URL http://localhost:1505/api/swagger/
 
-
-http://localhost:1505/api/swagger/
+To request an update to this repository simply make your desired modifications and submit a pull request - or enter an Issue [https://github.com/ianakelly/Invoke/issues]
