@@ -18,7 +18,8 @@ Web Console
 Mar Files:
 All Tests Suite https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar
 Kiosk V6 https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar
-SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip - See https://github.com/ianakelly/Invoke/blob/master/Screenshot%202014-05-06%2008.28.31.png for exact settings to allow for Service Creation.  Headers must = 0 and key for chosen files must be set to "file"
+SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip - <img align="center" height="260" src=https://github.com/ianakelly/Invoke/blob/master/Screenshot%202014-05-06%2008.28.31.png> 
+All settings in PostMan must match above.  Headers must = 0 and key for chosen files must be set to "file"
 
 PostMan Collection:
 https://github.com/ianakelly/Invoke/blob/master/Invoke%20Collection.json
