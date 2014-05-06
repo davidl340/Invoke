@@ -18,7 +18,7 @@ Web Console
 Mar Files:
 All Tests Suite https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar
 Kiosk V6 https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar
-SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip
+SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip - See https://github.com/ianakelly/Invoke/blob/master/Screenshot%202014-05-06%2008.28.31.png for exact settings to allow for Service Creation.  Headers must = 0 and key for chosen files must be set to "file"
 
 PostMan Collection:
 https://github.com/ianakelly/Invoke/blob/master/Invoke%20Collection.json
@@ -27,8 +27,6 @@ LISA Bank ATM GUI Example - Used to validate Virtual Service post Deploy
 Kiosk V6 Mar file
 All Test Suite from Examples Project Mar'd
 Demo Server should be running
-
-The Demonstration Script is as follows:
 
 Swagger URL http://localhost:1505/api/swagger/
 
