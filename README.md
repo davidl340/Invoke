@@ -4,7 +4,7 @@ Invoke Demo
 
 Purpose - Demos some Simple Use Cases of the LISA Invoke REST API.
 
-LISA Invoke Demonstration PostMan (Rest Client for Chrome) Project to get [PostMan] (https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)
+LISA Invoke Demonstration [PostMan] (https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en) (Rest Client for Chrome)
 
 This project requires the following Pre-Requisites:
 
