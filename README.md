@@ -4,7 +4,7 @@ Invoke Demo
 
 Purpose - Demos some Simple Use Cases of the LISA Invoke REST API.
 
-LISA Invoke Demonstration PostMan (Rest Client for Chrome) Project to get PostMan https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en
+LISA Invoke Demonstration PostMan (Rest Client for Chrome) Project to get [PostMan] (https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)
 
 This project requires the following Pre-Requisites:
 
@@ -16,20 +16,19 @@ Services Must be started before running:
 >Web Console
 
 Mar Files:
->All Tests Suite https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar
->Kiosk V6 https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar
->SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip 
+>[All Tests Suite] (https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar)
+>[Kiosk V6] (https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar)
+>[SOAP Request/Response Pairs] (https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip) 
 |<img align="center" height="200" border ="1" src=https://raw.githubusercontent.com/ianakelly/Invoke/master/Screenshot%202014-05-06%2008.28.31.png> |
 >All settings in PostMan must match above.  Headers must = 0 and key for chosen files must be set to "file"
 
-PostMan Collection:
-https://github.com/ianakelly/Invoke/blob/master/Invoke%20Collection.json
+[PostMan Collection](https://github.com/ianakelly/Invoke/blob/master/Invoke%20Collection.json)
 
 LISA Bank ATM GUI Example - Used to validate Virtual Service post Deploy
 Kiosk V6 Mar file
 All Test Suite from Examples Project Mar'd
 Demo Server should be running
 
-Swagger URL http://localhost:1505/api/swagger/
+[Swagger URL](http://localhost:1505/api/swagger/)
 
-To request an update to this repository simply make your desired modifications and submit a pull request - or enter an Issue [https://github.com/ianakelly/Invoke/issues]
+To request an update to this repository simply make your desired modifications and submit a pull request - or enter an [Issue](https://github.com/ianakelly/Invoke/issues)
