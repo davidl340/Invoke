@@ -2,13 +2,13 @@
 Invoke Demo
 ======
 
-Purpose - Demos some Simple Use Cases of the LISA Invoke REST API.
+Purpose - Demos some Simple Use Cases of the CA Service Virtulization Invoke REST API.
 
-LISA Invoke Demonstration [PostMan] (https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en) (Rest Client for Chrome)
+CA Service Virtualization Invoke Demonstration [PostMan] (https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en) (Rest Client for Chrome)
 
 This project requires the following Pre-Requisites:
 
-Services Must be started before running:
+The following CA Service Virtualization services Must be started before running:
 >Registry
 >VSE
 >Coordinator
@@ -16,9 +16,9 @@ Services Must be started before running:
 >Web Console
 
 Mar Files:
->[All Tests Suite] (https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar)
->[Kiosk V6] (https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar)
->[SOAP Request/Response Pairs] (https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip) 
+[All Tests Suite] (https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar)
+[Kiosk V6] (https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar)
+[SOAP Request/Response Pairs] (https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip) 
 <img align="center" height="200" border ="1" src=https://raw.githubusercontent.com/ianakelly/Invoke/master/Screenshot%202014-05-06%2008.28.31.png> 
 *All settings in PostMan must match the screen shot above.  Headers must = 0 and key for chosen files must be set to "file"*
 
