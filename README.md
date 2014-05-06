@@ -18,7 +18,8 @@ Web Console
 Mar Files:
 All Tests Suite https://github.com/ianakelly/Invoke/blob/master/AllTestsSuite.mar
 Kiosk V6 https://github.com/ianakelly/Invoke/blob/master/kioskV6.mar
-SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip - <img align="center" height="200" border ="1" src=https://raw.githubusercontent.com/ianakelly/Invoke/master/Screenshot%202014-05-06%2008.28.31.png> 
+SOAP Request/Response Pairs https://github.com/ianakelly/Invoke/blob/master/soapRRs.zip 
+|<img align="center" height="200" border ="1" src=https://raw.githubusercontent.com/ianakelly/Invoke/master/Screenshot%202014-05-06%2008.28.31.png> |
 All settings in PostMan must match above.  Headers must = 0 and key for chosen files must be set to "file"
 
 PostMan Collection:
